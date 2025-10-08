@@ -33,3 +33,16 @@ Start Test-driven approach
 1. Write the smallest possible failing test: give input `"" assert output to be 0 ` .
 2. Write the minimum amount of code that'll make it pass.
 3. Refactor any assumptions, continue to pass this test. Do not add any code without a corresponding test.
+
+Requirements:
+1. Return 0 for empty string
+2. Return number itself for single number
+3. Return sum for two comma-separated numbers
+4. Support unknown number of values
+5. Support newline as delimiter
+6. Reject invalid format with comma followed by newline
+7. Support custom delimiter
+8. Throw exception for negatives (include all negatives in message)
+9. Ignore numbers > 1000
+10. Support multi-character delimiters
+   
